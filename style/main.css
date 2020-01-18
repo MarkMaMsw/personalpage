@@ -1,0 +1,106 @@
+main {
+    width: 777px;
+    margin: 10px auto;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+p, li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page_body {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.page_body_head {
+    background-color: orange;
+    background-image: url("../images/sp_main_bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+ion-icon {
+    color: white;
+    font-size: 20px;
+
+}
+
+.page_body_head_row {
+    display: flex;
+    height: 200px;
+}
+
+.page_body_head_row_photo {
+    text-align: center;
+    width: 33%;
+}
+
+.page_body_head_row_photo img {
+    height: 100%;
+    /*width: 70%;*/
+    position: relative;
+    top: 30px;
+}
+
+.page_body_head_row_content {
+    display: inline-block;
+    width: 66%;
+}
+
+.page_body_head_row_content1 {
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.page_body_head_row_content2 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.page_body_content {
+    background-color: white;
+    padding: 40px;
+}
+
+.page_body_content {
+    display: flex;
+}
+
+.body_content_aboutme {
+    width: 50%;
+}
+
+.body_content_info {
+    width: 50%;
+    display: flex;
+}
+
+.content_info_title {
+    width: 30%;
+    color: black;
+}
+
+.content_info_value {
+    width: 70%;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    line-height: 30px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 span {
+    color: forestgreen;
+}

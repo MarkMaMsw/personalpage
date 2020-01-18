@@ -1,0 +1,45 @@
+body {
+    background-color: lightgray;
+}
+
+header {
+    width: 777px;
+    background-color: #e3e3e3;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.site_title {
+    display: block;
+    float: left;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+
+.site_title span {
+    color: forestgreen;
+}
+
+.header_navigate_ul {
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 0 20px;
+}
+
+.header_navigate_ul_li {
+    display: inline-block;
+    margin: 0 20px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 80px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
